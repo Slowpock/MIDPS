@@ -6,10 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-/**
- * Created by Admin on 02.06.2017.
- */
-
 public class Diceapp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle Hinstance){

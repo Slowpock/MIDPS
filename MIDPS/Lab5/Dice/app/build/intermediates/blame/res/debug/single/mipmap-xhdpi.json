@@ -12,7 +12,15 @@
         "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\mipmap-xhdpi\\dice3d_rounded.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\dice3d_rounded.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\mipmap-xhdpi\\dice3d_rounded.png"
+    },
+    {
         "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\dice3d.png",
         "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\mipmap-xhdpi\\dice3d.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\dice3d.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\mipmap-xhdpi\\dice3d.png"
     }
 ]

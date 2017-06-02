@@ -3,9 +3,6 @@ package com.example.dice;
 import android.media.AudioManager;
 import android.media.SoundPool;
 
-/**
- * Created a pre Lollipop SoundPool
- */
 final class PreLollipopSoundPool {
     @SuppressWarnings("deprecation")
     public static SoundPool NewSoundPool() {

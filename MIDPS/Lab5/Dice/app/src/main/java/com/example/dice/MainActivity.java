@@ -8,87 +8,97 @@ import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView dice_picture; 	//reference to dice picture
-    Random rng=new Random();    //generate random numbers
-    SoundPool dice_sound;       //For dice sound playing
-    int sound_id;		        //Used to control sound stream return by SoundPool
-    Handler handler;	        //Post message to start roll
-    Timer timer=new Timer();	//Used to implement feedback to user
-    boolean rolling=false;		//Is die rolling?
+    ImageView dice_picture;
+    Random rng=new Random();
+    SoundPool dice_sound;
+    int sound_id;
+    Handler handler;
+    Timer timer=new Timer();
+    boolean rolling=false;
+    int check=0,value;
+    String res;
+    Button odd,even;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Our function to initialise sound playing
+
         InitSound();
-        //Get a reference to image widget
+        even=(Button) findViewById(R.id.Even);
+        odd=(Button) findViewById(R.id.odd);
+        even.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                check=2;
+            }
+        });
+        odd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                check=1;
+            }
+        });
         dice_picture = (ImageView) findViewById(R.id.imageView);
         dice_picture.setOnClickListener(new HandleClick());
-        //link handler to callback
+
         handler=new Handler(callback);
     }
 
-    //User pressed dice, lets start
+
     private class HandleClick implements View.OnClickListener {
         public void onClick(View arg0) {
             if (!rolling) {
                 rolling = true;
-                //Show rolling image
+
                 dice_picture.setImageResource(R.drawable.dice3droll);
-                //Start rolling sound
+
                 dice_sound.play(sound_id, 1.0f, 1.0f, 0, 0, 1.0f);
-                //Pause to allow image to update
+
                 timer.schedule(new Roll(), 400);
             }
         }
     }
 
-    //New code to initialise sound playback
     void InitSound() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            //Use the newer SoundPool.Builder
-            //Set the audio attributes, SONIFICATION is for interaction events
-            //uses builder pattern
+
             AudioAttributes aa = new AudioAttributes.Builder()
                     .setUsage(AudioAttributes.USAGE_ASSISTANCE_SONIFICATION)
                     .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
                     .build();
 
-            //default max streams is 1
-            //also uses builder pattern
             dice_sound= new SoundPool.Builder().setAudioAttributes(aa).build();
 
         } else {
-            // Running on device earlier than Lollipop
-            //Use the older SoundPool constructor
+
             dice_sound=PreLollipopSoundPool.NewSoundPool();
         }
-        //Load the dice sound
+
         sound_id=dice_sound.load(this,R.raw.shake_dice,1);
     }
 
-    //When pause completed message sent to callback
+
     class Roll extends TimerTask {
         public void run() {
             handler.sendEmptyMessage(0);
         }
     }
 
-    //Receives message from timer to start dice roll
+
     Handler.Callback callback = new Handler.Callback() {
         public boolean handleMessage(Message msg) {
-            //Get roll result
-            //Remember nextInt returns 0 to 5 for argument of 6
-            //hence + 1
-            switch(rng.nextInt(6)+1) {
+            value=rng.nextInt(6)+1;
+            switch(value) {
                 case 1:
                     dice_picture.setImageResource(R.drawable.one);
                     break;
@@ -109,12 +119,23 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 default:
             }
-            rolling=false;	//user can press again
+            if(check==0)res="You need to choose";
+            if(value%2!=0){
+                if(check==1)res="You've won";
+                if(check==2)res="You loose";
+            }
+            else{
+                if(check==1)res="You loose";
+                if(check==2)res="You won";
+            }
+            Toast toast=Toast.makeText(getApplicationContext(),res,Toast.LENGTH_LONG);
+            toast.show();
+
+            rolling=false;
             return true;
         }
     };
 
-    //Clean up
     protected void onPause() {
         super.onPause();
         dice_sound.pause(sound_id);

@@ -4,40 +4,76 @@
         "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\six.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\one.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\drawable-ldpi\\one.png"
+    },
+    {
         "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\dice3droll.png",
         "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\dice3droll.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\five.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\drawable-ldpi\\five.png"
     },
     {
         "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\two.png",
         "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\two.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\dice3d.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\drawable-ldpi\\dice3d.png"
+    },
+    {
         "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\six.png",
         "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\six.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\four.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\drawable-ldpi\\four.png"
     },
     {
         "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\one.png",
         "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\one.png"
     },
     {
-        "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\five.png",
-        "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\five.png"
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\two.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\drawable-ldpi\\two.png"
     },
     {
-        "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\four.png",
-        "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\four.png"
+        "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\five.png",
+        "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\five.png"
     },
     {
         "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\four.png",
         "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\four.png"
     },
     {
-        "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\one.png",
-        "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\one.png"
-    },
-    {
         "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\dice3d.png",
         "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\dice3d.png"
+    },
+    {
+        "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\two.png",
+        "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\two.png"
+    },
+    {
+        "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\three.png",
+        "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\three.png"
+    },
+    {
+        "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\three.png",
+        "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\three.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\three.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\drawable-ldpi\\three.png"
+    },
+    {
+        "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\four.png",
+        "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\four.png"
+    },
+    {
+        "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\one.png",
+        "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\one.png"
     },
     {
         "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\dice3droll.png",
@@ -52,15 +88,11 @@
         "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\five.png"
     },
     {
-        "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\two.png",
-        "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\two.png"
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\dice3droll.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\drawable-ldpi\\dice3droll.png"
     },
     {
-        "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\three.png",
-        "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\drawable-ldpi\\three.png"
-    },
-    {
-        "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\three.png",
-        "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\drawable-ldpi\\three.png"
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\six.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\drawable-ldpi\\six.png"
     }
 ]

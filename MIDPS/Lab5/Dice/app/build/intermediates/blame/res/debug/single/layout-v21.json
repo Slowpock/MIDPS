@@ -16,12 +16,28 @@
         "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
         "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "D:\\Midps\\Dice\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "D:\\Midps\\Dice\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",

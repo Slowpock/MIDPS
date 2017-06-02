@@ -8,11 +8,19 @@
         "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\mipmap-xxhdpi\\dice3d.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\dice3d_rounded.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\mipmap-xxhdpi\\dice3d_rounded.png"
+    },
+    {
         "merged": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\dice3d.png",
         "source": "C:\\Users\\mrchp\\Downloads\\android_dice_roller\\Dice\\app\\src\\main\\res\\mipmap-xxhdpi\\dice3d.png"
     },
     {
         "merged": "D:\\Midps\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\dice3d_rounded.png",
         "source": "D:\\Midps\\Dice\\app\\src\\main\\res\\mipmap-xxhdpi\\dice3d_rounded.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\dice3d.png",
+        "source": "C:\\Users\\Admin\\MIDPS\\MIDPS\\Lab5\\Dice\\app\\src\\main\\res\\mipmap-xxhdpi\\dice3d.png"
     }
 ]

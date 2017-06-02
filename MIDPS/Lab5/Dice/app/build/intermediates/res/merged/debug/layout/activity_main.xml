@@ -5,15 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.dice.MainActivity">
+    <FrameLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:contentDescription="Press for Dice Roll"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice3droll" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Even"
+            android:layout_margin="50dp"
+            android:text="Even"
+            android:layout_gravity="bottom|left"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/odd"
+            android:layout_margin="50dp"
+            android:text="odd"
+            android:layout_gravity="bottom|right"
+            />
+    </FrameLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="200dp"
-        android:contentDescription="Press for Dice Roll"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dice3droll" />
+
 </android.support.constraint.ConstraintLayout>

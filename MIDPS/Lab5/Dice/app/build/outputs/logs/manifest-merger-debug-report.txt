@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from D:\Midps\Dice\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:2:1-21:12
 		INJECTED from D:\Midps\Dice\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Midps\Dice\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Midps\Dice\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] D:\Midps\Dice\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] D:\Midps\Dice\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:29:5-20
@@ -37,10 +37,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] D:\Midps\Di
 		ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:7:9-38
 	android:theme
 		ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.dice.MainActivity
+activity#com.example.dice.Diceapp
 ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:12:19-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
@@ -51,6 +51,10 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.dice.MainActivity
+ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:19:9-59
+	android:name
+		ADDED from D:\Midps\Dice\app\src\main\AndroidManifest.xml:19:19-47
 uses-sdk
 INJECTED from D:\Midps\Dice\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Midps\Dice\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78

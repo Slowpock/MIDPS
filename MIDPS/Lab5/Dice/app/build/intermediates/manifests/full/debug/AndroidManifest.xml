@@ -19,13 +19,14 @@
         android:roundIcon="@mipmap/dice3d_rounded"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.dice.MainActivity" >
+        <activity android:name="com.example.dice.Diceapp" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.dice.MainActivity" />
     </application>
 
 </manifest>
